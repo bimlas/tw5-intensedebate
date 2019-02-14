@@ -1,0 +1,29 @@
+tags: $:/tags/ViewTemplate
+title: $:/plugins/bimlas/intensedebate/template
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]subfilter{$:/config/bimlas/intensedebate/filter}]" variable="doNotOverrideCurrent">
+	<$set name="stateTiddler" value="$:/state/bimlas/intensedebate">
+		<$reveal type="nomatch" state=<<stateTiddler>> text=<<currentTiddler>>>
+			@@.bimlas-intensedebate-toggle
+				<$button class="tc-btn-invisible" set=<<stateTiddler>> setTo=<<currentTiddler>> >
+					{{$:/core/images/down-arrow}}
+					[img[https://intensedebate.com/favicon.ico]]
+					Show Intense Debate comments
+				</$button>
+			@@
+		</$reveal>
+		<$reveal type="match" state=<<stateTiddler>> text=<<currentTiddler>>>
+			@@.bimlas-intensedebate-toggle
+				<$button class="tc-btn-invisible" set=<<stateTiddler>> setTo="">
+					{{$:/core/images/up-arrow}}
+					[img[https://intensedebate.com/favicon.ico]]
+					Hide Intense Debate comments
+				</$button>
+			@@
+
+			<$intensedebate/>
+
+		</$reveal>
+	</$set>
+</$list>

@@ -1,0 +1,26 @@
+tags:
+title: $:/plugins/bimlas/intensedebate/README/README
+type: text/vnd.tiddlywiki
+
+! Intense Debate comments
+
+Use this plugin to give your visitors the opportunity to comment on your
+tiddlers without changing the wiki itself. See the bottom of this tiddler for example.
+
+* https://gitlab.com/bimlas/tw5-intensedebate (main repository)
+* https://github.com/bimlas/tw5-intensedebate (mirror, ''please add a star if you like the plugin'')
+
+[[Intense Debate|https://disqus.com/]] is a networked community platform used by hundreds of thousands
+of sites all over the web. With Intense Debate, your website gains a feature-rich
+comment system complete with social network integration, advanced
+administration and moderation options, and other extensive community functions.
+
+!! Installation instructions
+
+To add the plugin to your own ~TiddlyWiki5, just drag this link to the browser window:
+
+$:/plugins/bimlas/intensedebate
+
+For other installation options see the repositories above.
+
+//Select the next tab to continue.//

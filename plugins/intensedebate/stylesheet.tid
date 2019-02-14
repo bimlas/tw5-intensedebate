@@ -1,0 +1,13 @@
+tags: $:/tags/Stylesheet
+title: $:/plugins/bimlas/intensedebate/stylesheet
+type: text/css
+
+.bimlas-intensedebate-toggle {
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+
+.bimlas-intensedebate-toggle img {
+	height: 1rem;
+}
