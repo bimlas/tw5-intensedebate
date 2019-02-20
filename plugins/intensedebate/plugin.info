@@ -1,6 +1,6 @@
 {
 	"title": "$:/plugins/bimlas/intensedebate",
-	"description": "Intense Debate comments",
+	"description": "~IntenseDebate comments",
 	"author": "bimlas",
 	"version": "1.0.0",
 	"core-version": ">=5.1.18",

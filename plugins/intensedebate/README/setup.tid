@@ -4,15 +4,13 @@ type: text/vnd.tiddlywiki
 
 ! Setup
 
-Before you using the plugin, you need to create the Intense Debate forum to your wiki.
+Before you using the plugin, you need to create the ~IntenseDebate forum to your wiki.
 
-* Make yourself a [[Intense Debate account|https://disqus.com/]] if you don't already have one.
-* When it ask about "What would you like to do with Intense Debate?", select "I want to install Intense Debate on my site"
-* Fill out the form and copy the shortname (unique Intense Debate URL) under the website name to the [[settings of the plugin|$:/plugins/bimlas/disqus/settings/settings]]
-* Select your Intense Debate plan (free / paid)
-* You can skip the platform selection (Wordpress, Blogger, etc.) and continue with configuration
-* Fill out the website URL and copy to the [[settings of the plugin|$:/plugins/bimlas/disqus/settings/settings]]
-* Complete the setup and refresh your wiki
-* If not works, you probably forgot to press "Dismiss Setup" on the "Setup Complete!" page on Intense Debate
+* Make yourself a [[Intense Debate account|https://intensedebate.com/]] if you don't already have one.
+* On the bottom of the registration page, select "I want to install ~IntenseDebate on my blog or website"
+* If you already registered, sign in first, then select "Install ~IntenseDebate" below "Manage blogs/sites"
+* Fill out the website URL and copy to the [[settings of the plugin|$:/plugins/bimlas/intensedebate/settings/settings]]
+* Select"Generic install" as your platform
+* Copy the value of `idcomments_act` from the code to the [[settings of the plugin|$:/plugins/bimlas/intensedebate/settings/settings]]
 
 //Select the next tab to continue.//

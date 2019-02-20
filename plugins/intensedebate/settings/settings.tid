@@ -1,15 +1,15 @@
 tags: $:/tags/ControlPanel
 title: $:/plugins/bimlas/intensedebate/settings/settings
 type: text/vnd.tiddlywiki
-caption: Intense Debate
+caption: ~IntenseDebate
 
 <$list filter="[[$:/ControlPanel]!is[current]]">
-    Configuration for the plugin can be done from within the Intense Debate tab in the [[ControlPanel|$:/ControlPanel]] as well.
+    Configuration for the plugin can be done from within the ~IntenseDebate tab in the [[ControlPanel|$:/ControlPanel]] as well.
 </$list>
 <$list filter="[[$:/ControlPanel]is[current]]">
-    Configuration for the [[Intense Debate plugin|$:/plugins/bimlas/intensedebate]].
+    Configuration for the [[~IntenseDebate plugin|$:/plugins/bimlas/intensedebate]].
 </$list>
 
-|[[Forum hash code (`idcomments_acct`)|$:/config/bimlas/intensedebate/acct]]<blockquote>If you can't find it, [[have a look at the help|https://help.intensedebate.com/installation/whats-a-shortname]]</blockquote> |<$edit-text tiddler="$:/config/bimlas/intensedebate/acct" default="" tag="input"/><br/>//For example `e445630af3d4dc59b2dc38bd4d56b9e0` // |
+|[[Forum hash code (`idcomments_acct`)|$:/config/bimlas/intensedebate/acct]] |<$edit-text tiddler="$:/config/bimlas/intensedebate/acct" default="" tag="input"/><br/>//For example `e445630af3d4dc59b2dc38bd4d56b9e0` // |
 |[[Website URL|$:/config/bimlas/intensedebate/url]] |<$edit-text tiddler="$:/config/bimlas/intensedebate/url" default="" tag="input"/><br/>//For example https://me.github.io/ (don't forget to add trailing slash) or https://tiddlywiki.com/empty.html // |
 |[[Filter|$:/config/bimlas/intensedebate/filter]]<blockquote>Which tiddlers would you like to comment on?</blockquote> |<$edit-text tiddler="$:/config/bimlas/intensedebate/filter" default="" tag="input"/> |

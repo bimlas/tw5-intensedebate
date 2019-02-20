@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 				<$button class="tc-btn-invisible" set=<<stateTiddler>> setTo=<<currentTiddler>> >
 					{{$:/core/images/down-arrow}}
 					[img[https://intensedebate.com/favicon.ico]]
-					Show Intense Debate comments
+					Show ~IntenseDebate comments
 				</$button>
 			@@
 		</$reveal>
@@ -18,7 +18,7 @@ type: text/vnd.tiddlywiki
 				<$button class="tc-btn-invisible" set=<<stateTiddler>> setTo="">
 					{{$:/core/images/up-arrow}}
 					[img[https://intensedebate.com/favicon.ico]]
-					Hide Intense Debate comments
+					Hide ~IntenseDebate comments
 				</$button>
 			@@
 
