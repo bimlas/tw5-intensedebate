@@ -4,12 +4,12 @@ type: text/vnd.tiddlywiki
 
 ! ~IntenseDebate comments
 
-''First of all: I do not recommend this plugin because it doesn't seem stable, use the [[Disqus comments|https://bimlas.gitlab.io/tw5-disqus/]] plugin instead.''
+''First of all: I do not recommend this plugin because it doesn't seem stable, use the [[Disqus comments|https://bimlas.github.io/tw5-disqus/]] plugin instead.''
 
 Use this plugin to give your visitors the opportunity to comment on your
 tiddlers without changing the wiki itself. See the bottom of this tiddler for example.
 
-* https://gitlab.com/bimlas/tw5-intensedebate (main repository)
+* https://github.com/bimlas/tw5-intensedebate (please star if you like the plugin)
 
 [[~IntenseDebate|https://intensedebate.com/]] is a feature-rich comment system for ~WordPress, Blogger, Tumblr and many other blogging/CMS platforms.
 
